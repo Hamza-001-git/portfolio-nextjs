@@ -6,7 +6,6 @@ const projects: IProjectItem[] = [
     title: "DeepTruth - Deepfake Detection",
     description:
       "Developed a deep learning-based web application for detecting deepfakes using ResNeXt and LSTM architectures to analyze video frames and temporal features effectively.",
-    icon: "/skills/python.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Academic,
     githubUrl: "#",
@@ -17,7 +16,6 @@ const projects: IProjectItem[] = [
     title: "Port Scanner",
     description:
       "Developed a Python CLI tool to find and list open ports on local and remote systems using socket programming, improving security by detecting vulnerabilities.",
-    icon: "/skills/python.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "#",
@@ -28,7 +26,6 @@ const projects: IProjectItem[] = [
     title: "Splunk SIEM Lab Setup",
     description:
       "Developed a virtual lab utilizing VMware, pfSense, Security Onion, and Splunk for real-time threat monitoring and analysis of a Windows Server and Windows 10 PC.",
-    icon: "/skills/splunk.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Academic,
     githubUrl: "#",
@@ -39,7 +36,6 @@ const projects: IProjectItem[] = [
     title: "Website Vulnerability Scanner",
     description:
       "Developed a security tool capable of detecting SQL injection and Cross-Site Scripting vulnerabilities in web applications using Python, Beautiful Soup and Requests.",
-    icon: "/skills/python.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "#",
