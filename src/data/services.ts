@@ -3,89 +3,61 @@ import { IServiceItem } from "@/types";
 const services: IServiceItem[] = [
   {
     id: 1,
-    title: "Mobile App Development",
+    title: "Penetration Testing",
     icons: [
-      "/skills/socket-io.png",
-      "/skills/dart.svg",
-      "/skills/flutter.svg",
-      "/skills/getx.png",
-      "/skills/firebase.svg",
+      "/skills/burp-suite.svg",
+      "/skills/metasploit.svg",
+      "/skills/zap.svg",
+      "/skills/nmap.svg",
+      "/skills/wireshark.svg",
     ],
     shortDescription:
-      "I create engaging mobile applications for your audience.",
+      "Comprehensive security assessments to identify and remediate vulnerabilities.",
     description:
-      "I create captivating mobile apps from concept to deployment for iOS and Android. Using cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that align with your business goals. Enjoy a flawless user experience and outstanding results.",
+      "I perform thorough penetration tests on web applications, mobile apps, and networks to uncover security weaknesses. Using industry-standard tools and methodologies, I provide detailed reports with actionable recommendations to strengthen your security posture.",
   },
   {
     id: 2,
-    title: "Web Development",
+    title: "Vulnerability Assessment",
     icons: [
-      "/skills/redux.svg",
-      "/skills/react.svg",
-      "/skills/nextjs.png",
-      "/skills/html.svg",
-      "/skills/css.svg",
+      "/skills/nessus.svg",
+      "/skills/metasploit.svg",
+      "/skills/nikto.svg",
+      "/skills/sqlmap.svg",
+      "/skills/gobuster.svg",
     ],
-    shortDescription: "I build visually stunning and user-friendly websites.",
+    shortDescription: "Systematic identification and classification of security vulnerabilities.",
     description:
-      "I deliver stunning, user-friendly websites to establish your online presence. From simple sites to complex e-commerce platforms, I provide tailored solutions using the latest frameworks and technologies for a seamless, responsive, and SEO-friendly browsing experience. Enhance your online identity with quality.",
+      "I conduct comprehensive vulnerability assessments to identify security gaps in your systems. Using automated scanning tools and manual verification techniques, I provide prioritized remediation plans to mitigate risks effectively.",
   },
   {
     id: 3,
-    title: "Backend Development",
+    title: "Security Consulting",
     icons: [
-      "/skills/socket-io.png",
-      "/skills/docker.png",
-      "/skills/nodejs.svg",
-      "/skills/express.svg",
-      "/skills/aws.svg",
+      "/images/gdpr.png",
+      "/images/pci-dss.png",
+      "/images/iso-27001.png",
+      "/images/nist.png",
+      "/skills/splunk.svg",
     ],
-    shortDescription: "I create robust and scalable backend infrastructures.",
+    shortDescription: "Expert guidance on security standards and best practices.",
     description:
-      "I enhance digital applications with robust, scalable backend infrastructures. I develop efficient database structures, APIs, and configure servers for optimal performance, security, and scalability, ensuring your applications handle high traffic and complex data management seamlessly. Rely on strong backend solutions.",
+      "I provide strategic security consulting services to help organizations align with industry standards like GDPR, PCI-DSS, ISO-27001, and NIST frameworks. My guidance helps establish robust security policies and procedures tailored to your business needs.",
   },
   {
     id: 4,
-    title: "Product Strategy",
+    title: "Security Training",
     icons: [
-      "/skills/git.svg",
-      "/images/collaboration.png",
-      "/images/logical-thinking.png",
-      "/images/analytical-skills.png",
-      "/skills/ubuntu.png",
+      "/images/awareness.png",
+      "/images/education.png",
+      "/images/presentation.png",
+      "/images/workshop.png",
+      "/images/certification.png",
     ],
     shortDescription:
-      "I define goals, target audiences, and roadmap for success.",
+      "Customized security awareness and technical training programs.",
     description:
-      "I collaborate to define clear goals, target audiences, and a success roadmap. My expertise in product ideation and market analysis ensures your product meets user needs and aligns with your business strategy for long-term growth and full potential realization. Drive your product's success with strategic planning.",
-  },
-  {
-    id: 5,
-    title: "DevOps",
-    icons: [
-      "/skills/docker.svg",
-      "/skills/kubernetes.svg",
-      "/skills/aws.svg",
-      "/skills/jenkins.svg",
-      "/skills/terraform.svg",
-    ],
-    shortDescription: "I streamline development and operations processes.",
-    description:
-      "I streamline development and operations processes through effective DevOps practices. I implement continuous integration and deployment pipelines, manage cloud infrastructure, and use containerization to ensure efficient, reliable, and scalable software delivery. Improve your workflow with DevOps solutions.",
-  },
-  {
-    id: 6,
-    title: "Database Management",
-    icons: [
-      "/skills/mysql.svg",
-      "/skills/postgresql.svg",
-      "/skills/mongodb.svg",
-      "/skills/redis.svg",
-      "/skills/sqlite.svg",
-    ],
-    shortDescription: "I manage and optimize your database systems.",
-    description:
-      "I manage and optimize your database systems for performance, reliability, and scalability. With expertise in SQL and NoSQL databases, I design schemas, write complex queries, and implement best practices for data integrity and security. Ensure your data is managed effectively and efficiently.",
+      "I develop and deliver security training programs for technical teams and end-users. From secure coding practices for developers to security awareness for employees, my training helps build a security-conscious culture within organizations.",
   },
 ];
 
