@@ -5,154 +5,79 @@ const skills: ISkillListItem[] = [
     title: "Programming Languages",
     items: [
       {
-        title: "JavaScript",
+        title: "Python",
         level: SkillLevel.Expert,
-        icon: "/skills/javascript.svg",
+        icon: "/skills/python.svg",
       },
       {
-        title: "TypeScript",
+        title: "C",
         level: SkillLevel.Intermediate,
-        icon: "/skills/typescript.svg",
+        icon: "/skills/c.svg",
       },
       {
-        title: "Dart",
-        level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
+        title: "C++",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/cpp.png",
+      },
+      {
+        title: "SQL",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/sql.svg",
       },
     ],
   },
   {
-    title: "Frontend Development",
+    title: "Security Tools",
     items: [
       {
-        title: "Next.js",
+        title: "Metasploit",
         level: SkillLevel.Expert,
-        icon: "/skills/nextjs.png",
+        icon: "/skills/metasploit.svg",
       },
       {
-        title: "React.js",
+        title: "Burp Suite",
         level: SkillLevel.Expert,
-        icon: "/skills/react.svg",
+        icon: "/skills/burp-suite.svg",
       },
       {
-        title: "HTML",
+        title: "OWASP ZAP",
         level: SkillLevel.Expert,
-        icon: "/skills/html.svg",
+        icon: "/skills/zap.svg",
       },
       {
-        title: "CSS",
+        title: "Nmap",
+        level: SkillLevel.Expert,
+        icon: "/skills/nmap.svg",
+      },
+      {
+        title: "Wireshark",
         level: SkillLevel.Intermediate,
-        icon: "/skills/css.svg",
-      },
-      {
-        title: "SASS",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/sass.svg",
-      },
-      {
-        title: "Redux Toolkit",
-        level: SkillLevel.Expert,
-        icon: "/skills/redux.svg",
+        icon: "/skills/wireshark.svg",
       },
     ],
   },
   {
-    title: "Backend Development",
+    title: "Security Standards",
     items: [
       {
-        title: "Node.js",
-        level: SkillLevel.Expert,
-        icon: "/skills/nodejs.svg",
-      },
-      {
-        title: "Express.js",
-        level: SkillLevel.Expert,
-        icon: "/skills/express.svg",
-      },
-      {
-        title: "Socket.io",
+        title: "GDPR",
         level: SkillLevel.Intermediate,
-        icon: "/skills/socket-io.png",
-      },
-      // {
-      //   title: "Nest.js",
-      //   level: SkillLevel.Beginner,
-      //   icon: "/skills/nestjs.svg",
-      // },
-    ],
-  },
-  {
-    title: "Mobile App Development",
-    items: [
-      {
-        title: "Flutter",
-        level: SkillLevel.Expert,
-        icon: "/skills/flutter.svg",
+        icon: "/images/gdpr.png",
       },
       {
-        title: "GetX",
-        level: SkillLevel.Expert,
-        icon: "/skills/getx.png",
-      },
-    ],
-  },
-  {
-    title: "Database Management",
-    items: [
-      {
-        title: "MongoDB",
+        title: "PCI-DSS",
         level: SkillLevel.Intermediate,
-        icon: "/skills/mongodb.svg",
+        icon: "/images/pci-dss.png",
       },
       {
-        title: "PostgreSQL",
+        title: "ISO-27001",
         level: SkillLevel.Intermediate,
-        icon: "/skills/postgresql.svg",
+        icon: "/images/iso-27001.png",
       },
       {
-        title: "MySQL",
-        level: SkillLevel.Beginner,
-        icon: "/skills/mysql.svg",
-      },
-    ],
-  },
-  {
-    title: "DevOps/VCS",
-    items: [
-      {
-        title: "Docker",
-        level: SkillLevel.Beginner,
-        icon: "/skills/docker.png",
-      },
-      {
-        title: "AWS",
+        title: "NIST",
         level: SkillLevel.Intermediate,
-        icon: "/skills/aws.svg",
-      },
-      {
-        title: "Git",
-        level: SkillLevel.Expert,
-        icon: "/skills/git.svg",
-      },
-      {
-        title: "GitHub",
-        level: SkillLevel.Expert,
-        icon: "/skills/github.svg",
-      },
-    ],
-  },
-  {
-    title: "Miscellaneous",
-    items: [
-      {
-        title: "Firebase",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/firebase.svg",
-      },
-      {
-        title: "Ubuntu",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/ubuntu.png",
+        icon: "/images/nist.png",
       },
     ],
   },
@@ -160,9 +85,14 @@ const skills: ISkillListItem[] = [
     title: "Nontechnical Skills",
     items: [
       {
-        title: "Problem Solving",
+        title: "Analytical Thinking",
         level: SkillLevel.Expert,
         icon: "/images/logical-thinking.png",
+      },
+      {
+        title: "Problem Solving",
+        level: SkillLevel.Expert,
+        icon: "/images/problem-solving.png",
       },
       {
         title: "Collaboration",
@@ -170,9 +100,9 @@ const skills: ISkillListItem[] = [
         icon: "/images/collaboration.png",
       },
       {
-        title: "Analytical Skills",
+        title: "Adaptability",
         level: SkillLevel.Expert,
-        icon: "/images/analytical-skills.png",
+        icon: "/images/adaptability.png",
       },
     ],
   },
